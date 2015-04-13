@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CDB5CD"
+ >
+
+    <TextView
+        android:id="@+id/search_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:text="回忆过往" />
+
+    <TextView
+        android:id="@+id/search_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignLeft="@+id/search_address"
+        />
+
+    <TextView
+        android:id="@+id/search_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        
+        
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_button"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/textView8"
+        android:text="Date :" />
+
+    <TextView
+        android:id="@+id/search_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/search_address"
+      />
+
+    <Button
+        android:id="@+id/search_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="80dp"
+        android:textSize="18sp"
+        android:text="查询" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:text="记录 ：" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/textView8"
+        android:text="Address :" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="22dp"
+        android:text="Times :" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="22dp"
+        android:text="AllTimes :" />
+    
+    <TextView
+        android:id="@+id/search_alltimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_times"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="21dp"
+        />
+	
+    <TextView
+        android:id="@+id/search_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView6"
+        android:layout_alignLeft="@+id/search_alltimes"
+         />
+    <EditText 
+        android:id="@+id/search_editdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="格式：2014年11月10日"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="88dp"/>
+
+</RelativeLayout>

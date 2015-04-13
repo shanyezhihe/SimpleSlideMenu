@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.loverecorder.MainActivity"
+    android:background="@drawable/meimei"
+    
+     >
+	 <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:text="@string/title" />
+    <TextView
+        android:id="@+id/mima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="28dp"
+        android:layout_below="@+id/yonghu"
+        android:layout_marginTop="39dp"
+        android:textSize="17sp"
+         android:textColor="#00688B"
+        android:text="@string/mima" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/signIn" 
+        android:textSize="25sp"
+        />
+	<ImageButton
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="0dp"
+    	android:src="@drawable/stop"
+       />
+	<ImageButton
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="280dp"
+    	android:src="@drawable/start"
+       />
+
+    <TextView
+        android:id="@+id/yonghu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="127dp"
+        android:textSize="17sp"
+        android:textColor="#00688B"
+        android:text="@string/denglu" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:layout_marginLeft="105dp"
+        android:ems="8"
+        android:textColor="#0000EE"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+	<EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="167dp"
+        android:layout_marginLeft="105dp"
+        android:ems="8"
+        android:textColor="#0000EE"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+</RelativeLayout>

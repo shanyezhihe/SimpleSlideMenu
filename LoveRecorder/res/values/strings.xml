@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">流金岁月</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="denglu">ＤＲ :</string>
+    <string name="mima">ＰＷ :</string>
+	<string name="title">登陆</string>
+	<string name="signIn">Login</string>
+	<string name="poem">那时候
+我以为
+只要心中有梦
+就不会孤单
+ 
+到如今
+才懂得
+即使有梦
+也需要有人陪伴
+ 
+那时候
+我坚信
+能够忘记一切的
+不仅仅是时间
+ 
+到如今
+方明了
+有你的世界
+黑夜也是白天
+ 
+那时候
+我心想
+如果找到那个人
+就相守到发白鬓斑
+ 
+可如今
+想知道
+自己想要的幸福
+由谁来买单
+ 
+如果爱情需要乞讨
+我宁愿就此孤单</string>
+</resources>
